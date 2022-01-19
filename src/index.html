@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="../dist/style.css" />
+    <script
+      src="https://kit.fontawesome.com/7dcd3ccfca.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="font-['Libre_Franklin']">
+    <header class="mb-[33px] xl:mb-[45px]">
+      <div
+        id="logo"
+        class="mx-auto mt-[22.66vw] w-[86px] mb-[12vw] xl:mt-[6.04vw] xl:mb-[4.16vw]"
+      >
+        <img src="../images/logo.svg" alt="" />
+      </div>
+      <h1
+        class="mx-auto mb-[22px] text-center font-light text-[22px] leading-6 tracking-[0.5%] text-[#8f8f8f] xl:text-[48px] xl:mb-6"
+      >
+        We are launching <span class="font-bold text-black">soon!</span>
+      </h1>
+      <p
+        class="mx-auto text-center font-light text-xs tracking-[0.25%] xl:text-xl"
+      >
+        Subscribe and get notified
+      </p>
+    </header>
+    <main
+      class="flex flex-col justify-center mx-auto mb-[32vw] xl:mx-[27.77vw] xl:mb-[5vw]"
+    >
+      <form
+        id="form"
+        class="flex flex-col justify-center mx-auto mb-[18.66vw] xl:mx-0 xl:flex-row xl:gap-4 xl:mb-[90px]"
+      >
+        <div class="mb-[10px] xl:mb-0">
+          <input
+            class="px-[32px] py-[14px] w-[74.93vw] h-[10.13vw] font-light text-[12px] tracking-[0.1px] border border-solid border-[#c2d3ff] rounded-full placeholder:font-light placeholder:text-xs placeholder:text-[#8f8f8f] placeholder:opacity-50 focus:outline-none invalid:border-[#ff5263] peer xl:w-[29.6vw] xl:h-[3.88vw] xl:placeholder:text-base xl:text-base"
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Your email address..."
+          />
+          <p
+            id="error-message"
+            class="mt-1 mb-[15px] font-light italic text-[10px] text-[#ff5263] text-center hidden peer-invalid:block xl:text-xs xl:mt-2 xl:text-left xl:ml-[32px] xl:mb-0"
+          >
+            Please provide a valid email address
+          </p>
+        </div>
+
+        <button
+          class="w-[74.93vw] h-[10.13vw] bg-[#4f7df3] font-semibold text-xs text-white rounded-full shadow-md shadow-indigo-400/50 xl:w-[13.88vw] xl:h-[3.88vw] xl:text-base"
+          type="submit"
+          name="submit"
+          id="submit"
+        >
+          Notify me
+        </button>
+      </form>
+      <div>
+        <img src="../images/illustration-dashboard.png" alt="" />
+      </div>
+    </main>
+
+    <footer class="mb-[37px] flex flex-col items-center justify-center">
+      <div class="mb-[30px] flex gap-[13px] xl:mb-[28px]">
+        <a
+          class="w-[30px] h-[30px] flex items-center justify-center border border-solid border-[#e9edf7] rounded-full"
+          href="#"
+        >
+          <i class="fab fa-facebook-f text-[#4f7df3]"></i>
+        </a>
+        <a
+          class="w-[30px] h-[30px] flex items-center justify-center border border-solid border-[#e9edf7] rounded-full"
+          href="#"
+        >
+          <i class="fab fa-twitter text-[#4f7df3]"></i>
+        </a>
+        <a
+          class="w-[30px] h-[30px] flex items-center justify-center border border-solid border-[#e9edf7] rounded-full"
+          href="#"
+        >
+          <i class="fab fa-instagram text-[#4f7df3]"></i>
+        </a>
+      </div>
+      <p
+        class="font-light text-[10px] leading-[26px] tracking-[0.50] text-[#8f8f8f] xl:text-xs"
+      >
+        &copy; Copyright Ping. All rights reserved.
+      </p>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
